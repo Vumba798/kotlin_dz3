@@ -1,4 +1,3 @@
-import com.google.gson.GsonBuilder
 import com.google.gson.JsonParser
 import java.net.HttpURLConnection
 import java.net.URL
@@ -15,7 +14,7 @@ data class Rate(
 class RateAnalyzer {
     var rates = mutableListOf<Rate>()
         private set
-    lateinit var growing: List<Rate>
+    var growing: List<Rate> = mutableListOf()
         private set
     var min: Float = 0F
         private set
