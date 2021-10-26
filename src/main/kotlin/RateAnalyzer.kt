@@ -11,25 +11,24 @@ data class Rate(
     val enhancement: Float = cost / costMonthAgo * 100 - 100,
 )
 
-class RateAnalyzer {
-    var rates = mutableListOf<Rate>()
-        private set
-    var growing: List<Rate> = mutableListOf()
-        private set
-    var min: Float = 0F
-        private set
-    var max: Float = 0F
-        private set
-    var avg: Float = 0F
-        private set
+data class AnalyzeResult(
+    val rates: List<Rate>,
+    val growing: List<Rate>,
+    val min: Float,
+    val max: Float,
+    val avg: Float
+)
 
-    init {
-        updateRates()
-    }
+class RateAnalyzer {
+    private var rates = mutableListOf<Rate>()
+    private var growing: List<Rate> = mutableListOf()
+    private var min: Float = 0F
+    private var max: Float = 0F
+    private var avg: Float = 0F
 
     private fun getDateMonthAgo() = LocalDate.now(ZoneId.systemDefault()).minusMonths(1)
 
-    fun updateRates() {
+    fun getAnalyzeResult(): AnalyzeResult {
         rates = mutableListOf()
         var url = URL("https://openexchangerates.org/api/latest.json?app_id=d1290d44145b4d62b6760da7db9446e8")
         val apiLatestString = with(url.openConnection() as HttpURLConnection) {
@@ -56,6 +55,7 @@ class RateAnalyzer {
             rates.add(Rate(charCode, monthAgoRates[charCode].asFloat, latestRates[charCode].asFloat))
         }
         updateVars()
+        return AnalyzeResult(rates, growing, min, max, avg)
     }
 
     private fun updateVars() {
@@ -66,11 +66,10 @@ class RateAnalyzer {
             .minOf { it.enhancement }
         max = rates
             .maxOf { it.enhancement }
-        avg = 0F
-        rates
-            .forEach {
-                avg += it.enhancement
-            }
+        avg = rates
+            .sumOf {
+                it.enhancement.toDouble()
+            }.toFloat()
         avg /= rates.size
     }
 

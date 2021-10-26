@@ -1,13 +1,13 @@
 fun main() {
     try {
-        val analyzer = RateAnalyzer()
+        val analyzes = RateAnalyzer().getAnalyzeResult()
         println("growing are:")
-        for (element in analyzer.growing) {
+        for (element in analyzes.growing) {
             println(element.toString())
         }
-        println("\nmin = ${analyzer.min}%")
-        println("max = ${analyzer.max}%")
-        println("avg = ${analyzer.avg}%")
+        println("\nmin = ${analyzes.min}%")
+        println("max = ${analyzes.max}%")
+        println("avg = ${analyzes.avg}%")
     } catch (exception: Exception) {
         println(exception.message)
     }
