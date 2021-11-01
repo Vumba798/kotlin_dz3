@@ -1,4 +1,6 @@
+import com.google.gson.JsonObject
 import com.google.gson.JsonParser
+import kotlinx.coroutines.*
 import java.net.HttpURLConnection
 import java.net.URL
 import java.time.LocalDate
@@ -28,34 +30,38 @@ class RateAnalyzer {
 
     private fun getDateMonthAgo() = LocalDate.now(ZoneId.systemDefault()).minusMonths(1)
 
-    fun getAnalyzeResult(): AnalyzeResult {
+    suspend fun getAnalyzeResult(): AnalyzeResult = coroutineScope {
         rates = mutableListOf()
-        var url = URL("https://openexchangerates.org/api/latest.json?app_id=d1290d44145b4d62b6760da7db9446e8")
-        val apiLatestString = with(url.openConnection() as HttpURLConnection) {
-            requestMethod = "GET"
-            inputStream.bufferedReader().use {
-                it.readText()
+        val deferredLatest: Deferred<JsonObject> = async(Dispatchers.IO) {
+            val url = URL("https://openexchangerates.org/api/latest.json?app_id=d1290d44145b4d62b6760da7db9446e8")
+            val apiLatestString = with(url.openConnection() as HttpURLConnection) {
+                requestMethod = "GET"
+                inputStream.bufferedReader().use {
+                    it.readText()
+                }
             }
+            return@async JsonParser.parseString(apiLatestString).asJsonObject["rates"].asJsonObject
         }
-
-        val dateMonthAgo = getDateMonthAgo().toString()
-        url =
-            URL("https://openexchangerates.org/api/historical/$dateMonthAgo.json?app_id=d1290d44145b4d62b6760da7db9446e8")
-        val apiHistoricalString = with(url.openConnection() as HttpURLConnection) {
-            requestMethod = "GET"
-            inputStream.bufferedReader().use {
-                it.readText()
+        val deferredMonthAgo: Deferred<JsonObject> = async(Dispatchers.IO) {
+            val dateMonthAgo = getDateMonthAgo().toString()
+            val url = URL("https://openexchangerates.org/api/historical/$dateMonthAgo.json?app_id=d1290d44145b4d62b6760da7db9446e8")
+            val apiHistoricalString = with(url.openConnection() as HttpURLConnection) {
+                requestMethod = "GET"
+                inputStream.bufferedReader().use {
+                    it.readText()
+                }
             }
+            return@async JsonParser.parseString(apiHistoricalString).asJsonObject["rates"].asJsonObject
         }
-        val latestRates = JsonParser.parseString(apiLatestString).asJsonObject["rates"].asJsonObject
-        val monthAgoRates = JsonParser.parseString(apiHistoricalString).asJsonObject["rates"].asJsonObject
-
+        val latestRates = deferredLatest.await()
         val charCodes = latestRates.keySet()
+
+        val monthAgoRates = deferredMonthAgo.await()
         for (charCode in charCodes) {
             rates.add(Rate(charCode, monthAgoRates[charCode].asFloat, latestRates[charCode].asFloat))
         }
         updateVars()
-        return AnalyzeResult(rates, growing, min, max, avg)
+        return@coroutineScope AnalyzeResult(rates, growing, min, max, avg)
     }
 
     private fun updateVars() {

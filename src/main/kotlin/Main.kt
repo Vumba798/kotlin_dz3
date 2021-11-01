@@ -1,4 +1,4 @@
-fun main() {
+suspend fun main() {
     try {
         val analyzes = RateAnalyzer().getAnalyzeResult()
         println("growing are:")
