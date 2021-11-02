@@ -31,15 +31,15 @@ data class AnalyzeResult(
 )
 
 suspend fun readFromFileAnalyzes(path: String): AnalyzeResult = coroutineScope {
-    val deferredAnalyzes = async(Dispatchers.IO) {
+    withContext(Dispatchers.IO) {
         val gson = GsonBuilder().setPrettyPrinting().create()
         val jsonString = File(path).bufferedReader().use {
             it.readText()
         }
-        return@async gson.fromJson(jsonString, AnalyzeResult::class.java)
+        gson.fromJson(jsonString, AnalyzeResult::class.java)
     }
-    return@coroutineScope deferredAnalyzes.await()
 }
+
 class RateAnalyzer {
     private var rates = mutableListOf<Rate>()
     private var growing: List<Rate> = mutableListOf()
@@ -60,7 +60,7 @@ class RateAnalyzer {
                     it.readText()
                 }
             }
-            return@async JsonParser.parseString(apiLatestString).asJsonObject["rates"].asJsonObject
+            JsonParser.parseString(apiLatestString).asJsonObject["rates"].asJsonObject
         }
         val deferredMonthAgo: Deferred<JsonObject> = async(Dispatchers.IO) {
             val dateMonthAgo = getDateMonthAgo().toString()
@@ -72,7 +72,7 @@ class RateAnalyzer {
                     it.readText()
                 }
             }
-            return@async JsonParser.parseString(apiHistoricalString).asJsonObject["rates"].asJsonObject
+            JsonParser.parseString(apiHistoricalString).asJsonObject["rates"].asJsonObject
         }
         val latestRates = deferredLatest.await()
         val charCodes = latestRates.keySet()
@@ -82,7 +82,7 @@ class RateAnalyzer {
             rates.add(Rate(charCode, monthAgoRates[charCode].asFloat, latestRates[charCode].asFloat))
         }
         updateVars()
-        return@coroutineScope AnalyzeResult(min, max, avg, growing, rates)
+        AnalyzeResult(min, max, avg, growing, rates)
     }
 
     private fun updateVars() {
@@ -117,5 +117,3 @@ class RateAnalyzer {
         }
     }
 }
-
-
