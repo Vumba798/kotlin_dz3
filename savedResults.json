@@ -1,0 +1,1587 @@
+{
+  "min": -99.99989,
+  "max": 7.660469,
+  "avg": -0.5536378,
+  "growing": [
+    {
+      "charCode": "AFN",
+      "costMonthAgo": 89.34999,
+      "cost": 91.50343,
+      "enhancement": 2.4101257
+    },
+    {
+      "charCode": "ALL",
+      "costMonthAgo": 104.87654,
+      "cost": 106.33575,
+      "enhancement": 1.3913498
+    },
+    {
+      "charCode": "ANG",
+      "costMonthAgo": 1.794578,
+      "cost": 1.817434,
+      "enhancement": 1.2736053
+    },
+    {
+      "charCode": "ARS",
+      "costMonthAgo": 98.70772,
+      "cost": 99.6788,
+      "enhancement": 0.98379517
+    },
+    {
+      "charCode": "AWG",
+      "costMonthAgo": 1.8,
+      "cost": 1.8005,
+      "enhancement": 0.027786255
+    },
+    {
+      "charCode": "BAM",
+      "costMonthAgo": 1.688236,
+      "cost": 1.692502,
+      "enhancement": 0.25268555
+    },
+    {
+      "charCode": "BDT",
+      "costMonthAgo": 85.641136,
+      "cost": 86.35566,
+      "enhancement": 0.83432007
+    },
+    {
+      "charCode": "BGN",
+      "costMonthAgo": 1.686685,
+      "cost": 1.69157,
+      "enhancement": 0.28962708
+    },
+    {
+      "charCode": "BHD",
+      "costMonthAgo": 0.377033,
+      "cost": 0.37707,
+      "enhancement": 0.00982666
+    },
+    {
+      "charCode": "BIF",
+      "costMonthAgo": 1996.0,
+      "cost": 2006.2347,
+      "enhancement": 0.512764
+    },
+    {
+      "charCode": "BOB",
+      "costMonthAgo": 6.903487,
+      "cost": 6.953015,
+      "enhancement": 0.7174225
+    },
+    {
+      "charCode": "BRL",
+      "costMonthAgo": 5.3661,
+      "cost": 5.6381,
+      "enhancement": 5.068863
+    },
+    {
+      "charCode": "BTN",
+      "costMonthAgo": 74.127716,
+      "cost": 75.522835,
+      "enhancement": 1.8820496
+    },
+    {
+      "charCode": "BWP",
+      "costMonthAgo": 11.303661,
+      "cost": 11.491928,
+      "enhancement": 1.665535
+    },
+    {
+      "charCode": "BZD",
+      "costMonthAgo": 2.015286,
+      "cost": 2.03265,
+      "enhancement": 0.86161804
+    },
+    {
+      "charCode": "CDF",
+      "costMonthAgo": 2002.0,
+      "cost": 2002.2156,
+      "enhancement": 0.010765076
+    },
+    {
+      "charCode": "CLF",
+      "costMonthAgo": 0.029111,
+      "cost": 0.029482,
+      "enhancement": 1.2744293
+    },
+    {
+      "charCode": "CLP",
+      "costMonthAgo": 803.26,
+      "cost": 813.5,
+      "enhancement": 1.2748032
+    },
+    {
+      "charCode": "COP",
+      "costMonthAgo": 3803.493,
+      "cost": 3806.3179,
+      "enhancement": 0.07426453
+    },
+    {
+      "charCode": "CRC",
+      "costMonthAgo": 625.871,
+      "cost": 643.09406,
+      "enhancement": 2.7518616
+    },
+    {
+      "charCode": "CZK",
+      "costMonthAgo": 21.8368,
+      "cost": 22.1209,
+      "enhancement": 1.3010178
+    },
+    {
+      "charCode": "DJF",
+      "costMonthAgo": 178.05,
+      "cost": 179.51945,
+      "enhancement": 0.8252945
+    },
+    {
+      "charCode": "DKK",
+      "costMonthAgo": 6.41451,
+      "cost": 6.429346,
+      "enhancement": 0.23129272
+    },
+    {
+      "charCode": "DOP",
+      "costMonthAgo": 56.45,
+      "cost": 56.66308,
+      "enhancement": 0.3774643
+    },
+    {
+      "charCode": "DZD",
+      "costMonthAgo": 137.35,
+      "cost": 137.571,
+      "enhancement": 0.1608963
+    },
+    {
+      "charCode": "ETB",
+      "costMonthAgo": 46.2,
+      "cost": 47.838108,
+      "enhancement": 3.5456924
+    },
+    {
+      "charCode": "EUR",
+      "costMonthAgo": 0.862519,
+      "cost": 0.864214,
+      "enhancement": 0.19651794
+    },
+    {
+      "charCode": "GEL",
+      "costMonthAgo": 3.11,
+      "cost": 3.15,
+      "enhancement": 1.2861862
+    },
+    {
+      "charCode": "GHS",
+      "costMonthAgo": 6.05,
+      "cost": 6.151343,
+      "enhancement": 1.6750793
+    },
+    {
+      "charCode": "GMD",
+      "costMonthAgo": 51.55,
+      "cost": 52.0,
+      "enhancement": 0.8729477
+    },
+    {
+      "charCode": "GTQ",
+      "costMonthAgo": 7.737291,
+      "cost": 7.805374,
+      "enhancement": 0.8799286
+    },
+    {
+      "charCode": "GYD",
+      "costMonthAgo": 209.1657,
+      "cost": 211.08786,
+      "enhancement": 0.91897583
+    },
+    {
+      "charCode": "HNL",
+      "costMonthAgo": 24.18,
+      "cost": 24.311495,
+      "enhancement": 0.54382324
+    },
+    {
+      "charCode": "HRK",
+      "costMonthAgo": 6.4681,
+      "cost": 6.514017,
+      "enhancement": 0.7098999
+    },
+    {
+      "charCode": "HTG",
+      "costMonthAgo": 98.4787,
+      "cost": 101.34037,
+      "enhancement": 2.9058838
+    },
+    {
+      "charCode": "HUF",
+      "costMonthAgo": 308.2681,
+      "cost": 311.535,
+      "enhancement": 1.059761
+    },
+    {
+      "charCode": "INR",
+      "costMonthAgo": 74.15225,
+      "cost": 74.931496,
+      "enhancement": 1.0508652
+    },
+    {
+      "charCode": "IQD",
+      "costMonthAgo": 1459.5,
+      "cost": 1471.2826,
+      "enhancement": 0.807312
+    },
+    {
+      "charCode": "IRR",
+      "costMonthAgo": 42195.023,
+      "cost": 42250.0,
+      "enhancement": 0.1302948
+    },
+    {
+      "charCode": "JMD",
+      "costMonthAgo": 147.56847,
+      "cost": 155.02365,
+      "enhancement": 5.052017
+    },
+    {
+      "charCode": "JPY",
+      "costMonthAgo": 111.0765,
+      "cost": 114.2455,
+      "enhancement": 2.8529892
+    },
+    {
+      "charCode": "KES",
+      "costMonthAgo": 110.5,
+      "cost": 111.2,
+      "enhancement": 0.63347626
+    },
+    {
+      "charCode": "KHR",
+      "costMonthAgo": 4095.0,
+      "cost": 4100.025,
+      "enhancement": 0.12271118
+    },
+    {
+      "charCode": "KWD",
+      "costMonthAgo": 0.30145,
+      "cost": 0.301807,
+      "enhancement": 0.11842346
+    },
+    {
+      "charCode": "KYD",
+      "costMonthAgo": 0.8332,
+      "cost": 0.840354,
+      "enhancement": 0.8586273
+    },
+    {
+      "charCode": "KZT",
+      "costMonthAgo": 426.61874,
+      "cost": 431.54767,
+      "enhancement": 1.1553421
+    },
+    {
+      "charCode": "LAK",
+      "costMonthAgo": 9927.415,
+      "cost": 10403.287,
+      "enhancement": 4.7935104
+    },
+    {
+      "charCode": "LKR",
+      "costMonthAgo": 199.70604,
+      "cost": 203.69989,
+      "enhancement": 1.9998703
+    },
+    {
+      "charCode": "LSL",
+      "costMonthAgo": 15.13,
+      "cost": 15.375849,
+      "enhancement": 1.6249084
+    },
+    {
+      "charCode": "LYD",
+      "costMonthAgo": 4.547094,
+      "cost": 4.589191,
+      "enhancement": 0.92580414
+    },
+    {
+      "charCode": "MAD",
+      "costMonthAgo": 9.0655,
+      "cost": 9.115556,
+      "enhancement": 0.55215454
+    },
+    {
+      "charCode": "MGA",
+      "costMonthAgo": 3950.0,
+      "cost": 4016.0317,
+      "enhancement": 1.6716843
+    },
+    {
+      "charCode": "MKD",
+      "costMonthAgo": 53.2293,
+      "cost": 53.33039,
+      "enhancement": 0.18991089
+    },
+    {
+      "charCode": "MNT",
+      "costMonthAgo": 2847.064,
+      "cost": 2851.9922,
+      "enhancement": 0.17310333
+    },
+    {
+      "charCode": "MOP",
+      "costMonthAgo": 8.017384,
+      "cost": 8.07764,
+      "enhancement": 0.751564
+    },
+    {
+      "charCode": "MRU",
+      "costMonthAgo": 36.2,
+      "cost": 36.279743,
+      "enhancement": 0.22028351
+    },
+    {
+      "charCode": "MUR",
+      "costMonthAgo": 42.696495,
+      "cost": 43.05,
+      "enhancement": 0.8279419
+    },
+    {
+      "charCode": "MWK",
+      "costMonthAgo": 815.0,
+      "cost": 822.36273,
+      "enhancement": 0.90340424
+    },
+    {
+      "charCode": "MXN",
+      "costMonthAgo": 20.4509,
+      "cost": 20.671862,
+      "enhancement": 1.080452
+    },
+    {
+      "charCode": "MZN",
+      "costMonthAgo": 63.774994,
+      "cost": 63.83,
+      "enhancement": 0.086250305
+    },
+    {
+      "charCode": "NGN",
+      "costMonthAgo": 410.77,
+      "cost": 413.5,
+      "enhancement": 0.6646042
+    },
+    {
+      "charCode": "NIO",
+      "costMonthAgo": 35.25,
+      "cost": 35.526592,
+      "enhancement": 0.78466034
+    },
+    {
+      "charCode": "NPR",
+      "costMonthAgo": 118.60393,
+      "cost": 120.83317,
+      "enhancement": 1.87957
+    },
+    {
+      "charCode": "OMR",
+      "costMonthAgo": 0.385001,
+      "cost": 0.385016,
+      "enhancement": 0.0038986206
+    },
+    {
+      "charCode": "PGK",
+      "costMonthAgo": 3.535,
+      "cost": 3.540717,
+      "enhancement": 0.16172028
+    },
+    {
+      "charCode": "PKR",
+      "costMonthAgo": 170.75,
+      "cost": 172.38875,
+      "enhancement": 0.95973206
+    },
+    {
+      "charCode": "PLN",
+      "costMonthAgo": 3.949706,
+      "cost": 3.995884,
+      "enhancement": 1.1691437
+    },
+    {
+      "charCode": "PYG",
+      "costMonthAgo": 6905.744,
+      "cost": 6971.186,
+      "enhancement": 0.94763947
+    },
+    {
+      "charCode": "QAR",
+      "costMonthAgo": 3.641,
+      "cost": 3.671758,
+      "enhancement": 0.8447647
+    },
+    {
+      "charCode": "RON",
+      "costMonthAgo": 4.2654,
+      "cost": 4.276725,
+      "enhancement": 0.26550293
+    },
+    {
+      "charCode": "RSD",
+      "costMonthAgo": 101.492874,
+      "cost": 101.74501,
+      "enhancement": 0.24842834
+    },
+    {
+      "charCode": "RWF",
+      "costMonthAgo": 997.5,
+      "cost": 1027.3229,
+      "enhancement": 2.9897537
+    },
+    {
+      "charCode": "SAR",
+      "costMonthAgo": 3.750774,
+      "cost": 3.751097,
+      "enhancement": 0.008621216
+    },
+    {
+      "charCode": "SCR",
+      "costMonthAgo": 13.494849,
+      "cost": 13.702053,
+      "enhancement": 1.5354309
+    },
+    {
+      "charCode": "SLL",
+      "costMonthAgo": 10577.85,
+      "cost": 10790.85,
+      "enhancement": 2.013649
+    },
+    {
+      "charCode": "SRD",
+      "costMonthAgo": 21.3985,
+      "cost": 21.507,
+      "enhancement": 0.50704193
+    },
+    {
+      "charCode": "SVC",
+      "costMonthAgo": 8.748042,
+      "cost": 8.823237,
+      "enhancement": 0.85957336
+    },
+    {
+      "charCode": "SZL",
+      "costMonthAgo": 15.13,
+      "cost": 15.36633,
+      "enhancement": 1.5619965
+    },
+    {
+      "charCode": "TJS",
+      "costMonthAgo": 11.327875,
+      "cost": 11.339968,
+      "enhancement": 0.10675049
+    },
+    {
+      "charCode": "TMT",
+      "costMonthAgo": 3.5,
+      "cost": 3.505,
+      "enhancement": 0.14286041
+    },
+    {
+      "charCode": "TRY",
+      "costMonthAgo": 8.861,
+      "cost": 9.539795,
+      "enhancement": 7.660469
+    },
+    {
+      "charCode": "TTD",
+      "costMonthAgo": 6.791132,
+      "cost": 6.835585,
+      "enhancement": 0.65457916
+    },
+    {
+      "charCode": "TWD",
+      "costMonthAgo": 27.77,
+      "cost": 27.8432,
+      "enhancement": 0.26359558
+    },
+    {
+      "charCode": "UGX",
+      "costMonthAgo": 3539.1357,
+      "cost": 3583.8901,
+      "enhancement": 1.2645569
+    },
+    {
+      "charCode": "UYU",
+      "costMonthAgo": 42.961105,
+      "cost": 43.971233,
+      "enhancement": 2.3512573
+    },
+    {
+      "charCode": "UZS",
+      "costMonthAgo": 10700.0,
+      "cost": 10764.192,
+      "enhancement": 0.5999298
+    },
+    {
+      "charCode": "VND",
+      "costMonthAgo": 22732.543,
+      "cost": 22912.041,
+      "enhancement": 0.7896042
+    },
+    {
+      "charCode": "XAF",
+      "costMonthAgo": 565.77527,
+      "cost": 566.8876,
+      "enhancement": 0.19660187
+    },
+    {
+      "charCode": "XDR",
+      "costMonthAgo": 0.708075,
+      "cost": 0.709965,
+      "enhancement": 0.266922
+    },
+    {
+      "charCode": "XOF",
+      "costMonthAgo": 565.77527,
+      "cost": 566.8876,
+      "enhancement": 0.19660187
+    },
+    {
+      "charCode": "XPF",
+      "costMonthAgo": 102.92588,
+      "cost": 103.12822,
+      "enhancement": 0.19658661
+    },
+    {
+      "charCode": "ZAR",
+      "costMonthAgo": 14.86313,
+      "cost": 15.327343,
+      "enhancement": 3.1232605
+    },
+    {
+      "charCode": "ZMW",
+      "costMonthAgo": 16.74635,
+      "cost": 17.410316,
+      "enhancement": 3.9648438
+    }
+  ],
+  "rates": [
+    {
+      "charCode": "AED",
+      "costMonthAgo": 3.6732,
+      "cost": 3.6732,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "AFN",
+      "costMonthAgo": 89.34999,
+      "cost": 91.50343,
+      "enhancement": 2.4101257
+    },
+    {
+      "charCode": "ALL",
+      "costMonthAgo": 104.87654,
+      "cost": 106.33575,
+      "enhancement": 1.3913498
+    },
+    {
+      "charCode": "AMD",
+      "costMonthAgo": 490.5547,
+      "cost": 481.53668,
+      "enhancement": -1.8383255
+    },
+    {
+      "charCode": "ANG",
+      "costMonthAgo": 1.794578,
+      "cost": 1.817434,
+      "enhancement": 1.2736053
+    },
+    {
+      "charCode": "AOA",
+      "costMonthAgo": 599.0,
+      "cost": 597.0,
+      "enhancement": -0.3338852
+    },
+    {
+      "charCode": "ARS",
+      "costMonthAgo": 98.70772,
+      "cost": 99.6788,
+      "enhancement": 0.98379517
+    },
+    {
+      "charCode": "AUD",
+      "costMonthAgo": 1.376822,
+      "cost": 1.33271,
+      "enhancement": -3.2038956
+    },
+    {
+      "charCode": "AWG",
+      "costMonthAgo": 1.8,
+      "cost": 1.8005,
+      "enhancement": 0.027786255
+    },
+    {
+      "charCode": "AZN",
+      "costMonthAgo": 1.700805,
+      "cost": 1.700805,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "BAM",
+      "costMonthAgo": 1.688236,
+      "cost": 1.692502,
+      "enhancement": 0.25268555
+    },
+    {
+      "charCode": "BBD",
+      "costMonthAgo": 2.0,
+      "cost": 2.0,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "BDT",
+      "costMonthAgo": 85.641136,
+      "cost": 86.35566,
+      "enhancement": 0.83432007
+    },
+    {
+      "charCode": "BGN",
+      "costMonthAgo": 1.686685,
+      "cost": 1.69157,
+      "enhancement": 0.28962708
+    },
+    {
+      "charCode": "BHD",
+      "costMonthAgo": 0.377033,
+      "cost": 0.37707,
+      "enhancement": 0.00982666
+    },
+    {
+      "charCode": "BIF",
+      "costMonthAgo": 1996.0,
+      "cost": 2006.2347,
+      "enhancement": 0.512764
+    },
+    {
+      "charCode": "BMD",
+      "costMonthAgo": 1.0,
+      "cost": 1.0,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "BND",
+      "costMonthAgo": 1.357737,
+      "cost": 1.357148,
+      "enhancement": -0.043373108
+    },
+    {
+      "charCode": "BOB",
+      "costMonthAgo": 6.903487,
+      "cost": 6.953015,
+      "enhancement": 0.7174225
+    },
+    {
+      "charCode": "BRL",
+      "costMonthAgo": 5.3661,
+      "cost": 5.6381,
+      "enhancement": 5.068863
+    },
+    {
+      "charCode": "BSD",
+      "costMonthAgo": 1.0,
+      "cost": 1.0,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "BTC",
+      "costMonthAgo": 2.0790221E-5,
+      "cost": 1.608374E-5,
+      "enhancement": -22.637955
+    },
+    {
+      "charCode": "BTN",
+      "costMonthAgo": 74.127716,
+      "cost": 75.522835,
+      "enhancement": 1.8820496
+    },
+    {
+      "charCode": "BWP",
+      "costMonthAgo": 11.303661,
+      "cost": 11.491928,
+      "enhancement": 1.665535
+    },
+    {
+      "charCode": "BYN",
+      "costMonthAgo": 2.513498,
+      "cost": 2.445255,
+      "enhancement": -2.715065
+    },
+    {
+      "charCode": "BZD",
+      "costMonthAgo": 2.015286,
+      "cost": 2.03265,
+      "enhancement": 0.86161804
+    },
+    {
+      "charCode": "CAD",
+      "costMonthAgo": 1.26465,
+      "cost": 1.237203,
+      "enhancement": -2.1703262
+    },
+    {
+      "charCode": "CDF",
+      "costMonthAgo": 2002.0,
+      "cost": 2002.2156,
+      "enhancement": 0.010765076
+    },
+    {
+      "charCode": "CHF",
+      "costMonthAgo": 0.93038,
+      "cost": 0.914713,
+      "enhancement": -1.6839294
+    },
+    {
+      "charCode": "CLF",
+      "costMonthAgo": 0.029111,
+      "cost": 0.029482,
+      "enhancement": 1.2744293
+    },
+    {
+      "charCode": "CLP",
+      "costMonthAgo": 803.26,
+      "cost": 813.5,
+      "enhancement": 1.2748032
+    },
+    {
+      "charCode": "CNH",
+      "costMonthAgo": 6.435,
+      "cost": 6.393115,
+      "enhancement": -0.65089417
+    },
+    {
+      "charCode": "CNY",
+      "costMonthAgo": 6.4467,
+      "cost": 6.3964,
+      "enhancement": -0.78025055
+    },
+    {
+      "charCode": "COP",
+      "costMonthAgo": 3803.493,
+      "cost": 3806.3179,
+      "enhancement": 0.07426453
+    },
+    {
+      "charCode": "CRC",
+      "costMonthAgo": 625.871,
+      "cost": 643.09406,
+      "enhancement": 2.7518616
+    },
+    {
+      "charCode": "CUC",
+      "costMonthAgo": 1.0,
+      "cost": 1.0,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "CUP",
+      "costMonthAgo": 25.75,
+      "cost": 25.75,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "CVE",
+      "costMonthAgo": 95.45,
+      "cost": 94.7,
+      "enhancement": -0.78575134
+    },
+    {
+      "charCode": "CZK",
+      "costMonthAgo": 21.8368,
+      "cost": 22.1209,
+      "enhancement": 1.3010178
+    },
+    {
+      "charCode": "DJF",
+      "costMonthAgo": 178.05,
+      "cost": 179.51945,
+      "enhancement": 0.8252945
+    },
+    {
+      "charCode": "DKK",
+      "costMonthAgo": 6.41451,
+      "cost": 6.429346,
+      "enhancement": 0.23129272
+    },
+    {
+      "charCode": "DOP",
+      "costMonthAgo": 56.45,
+      "cost": 56.66308,
+      "enhancement": 0.3774643
+    },
+    {
+      "charCode": "DZD",
+      "costMonthAgo": 137.35,
+      "cost": 137.571,
+      "enhancement": 0.1608963
+    },
+    {
+      "charCode": "EGP",
+      "costMonthAgo": 15.720347,
+      "cost": 15.7101,
+      "enhancement": -0.06518555
+    },
+    {
+      "charCode": "ERN",
+      "costMonthAgo": 15.002477,
+      "cost": 15.00062,
+      "enhancement": -0.012374878
+    },
+    {
+      "charCode": "ETB",
+      "costMonthAgo": 46.2,
+      "cost": 47.838108,
+      "enhancement": 3.5456924
+    },
+    {
+      "charCode": "EUR",
+      "costMonthAgo": 0.862519,
+      "cost": 0.864214,
+      "enhancement": 0.19651794
+    },
+    {
+      "charCode": "FJD",
+      "costMonthAgo": 2.1205,
+      "cost": 2.07,
+      "enhancement": -2.3815231
+    },
+    {
+      "charCode": "FKP",
+      "costMonthAgo": 0.738253,
+      "cost": 0.73237,
+      "enhancement": -0.796875
+    },
+    {
+      "charCode": "GBP",
+      "costMonthAgo": 0.738253,
+      "cost": 0.73237,
+      "enhancement": -0.796875
+    },
+    {
+      "charCode": "GEL",
+      "costMonthAgo": 3.11,
+      "cost": 3.15,
+      "enhancement": 1.2861862
+    },
+    {
+      "charCode": "GGP",
+      "costMonthAgo": 0.738253,
+      "cost": 0.73237,
+      "enhancement": -0.796875
+    },
+    {
+      "charCode": "GHS",
+      "costMonthAgo": 6.05,
+      "cost": 6.151343,
+      "enhancement": 1.6750793
+    },
+    {
+      "charCode": "GIP",
+      "costMonthAgo": 0.738253,
+      "cost": 0.73237,
+      "enhancement": -0.796875
+    },
+    {
+      "charCode": "GMD",
+      "costMonthAgo": 51.55,
+      "cost": 52.0,
+      "enhancement": 0.8729477
+    },
+    {
+      "charCode": "GNF",
+      "costMonthAgo": 9770.0,
+      "cost": 9710.894,
+      "enhancement": -0.60498047
+    },
+    {
+      "charCode": "GTQ",
+      "costMonthAgo": 7.737291,
+      "cost": 7.805374,
+      "enhancement": 0.8799286
+    },
+    {
+      "charCode": "GYD",
+      "costMonthAgo": 209.1657,
+      "cost": 211.08786,
+      "enhancement": 0.91897583
+    },
+    {
+      "charCode": "HKD",
+      "costMonthAgo": 7.78505,
+      "cost": 7.78232,
+      "enhancement": -0.035064697
+    },
+    {
+      "charCode": "HNL",
+      "costMonthAgo": 24.18,
+      "cost": 24.311495,
+      "enhancement": 0.54382324
+    },
+    {
+      "charCode": "HRK",
+      "costMonthAgo": 6.4681,
+      "cost": 6.514017,
+      "enhancement": 0.7098999
+    },
+    {
+      "charCode": "HTG",
+      "costMonthAgo": 98.4787,
+      "cost": 101.34037,
+      "enhancement": 2.9058838
+    },
+    {
+      "charCode": "HUF",
+      "costMonthAgo": 308.2681,
+      "cost": 311.535,
+      "enhancement": 1.059761
+    },
+    {
+      "charCode": "IDR",
+      "costMonthAgo": 14307.338,
+      "cost": 14271.9,
+      "enhancement": -0.2476883
+    },
+    {
+      "charCode": "ILS",
+      "costMonthAgo": 3.2189,
+      "cost": 3.133699,
+      "enhancement": -2.6468964
+    },
+    {
+      "charCode": "IMP",
+      "costMonthAgo": 0.738253,
+      "cost": 0.73237,
+      "enhancement": -0.796875
+    },
+    {
+      "charCode": "INR",
+      "costMonthAgo": 74.15225,
+      "cost": 74.931496,
+      "enhancement": 1.0508652
+    },
+    {
+      "charCode": "IQD",
+      "costMonthAgo": 1459.5,
+      "cost": 1471.2826,
+      "enhancement": 0.807312
+    },
+    {
+      "charCode": "IRR",
+      "costMonthAgo": 42195.023,
+      "cost": 42250.0,
+      "enhancement": 0.1302948
+    },
+    {
+      "charCode": "ISK",
+      "costMonthAgo": 129.65,
+      "cost": 129.64,
+      "enhancement": -0.0077056885
+    },
+    {
+      "charCode": "JEP",
+      "costMonthAgo": 0.738253,
+      "cost": 0.73237,
+      "enhancement": -0.796875
+    },
+    {
+      "charCode": "JMD",
+      "costMonthAgo": 147.56847,
+      "cost": 155.02365,
+      "enhancement": 5.052017
+    },
+    {
+      "charCode": "JOD",
+      "costMonthAgo": 0.709,
+      "cost": 0.709,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "JPY",
+      "costMonthAgo": 111.0765,
+      "cost": 114.2455,
+      "enhancement": 2.8529892
+    },
+    {
+      "charCode": "KES",
+      "costMonthAgo": 110.5,
+      "cost": 111.2,
+      "enhancement": 0.63347626
+    },
+    {
+      "charCode": "KGS",
+      "costMonthAgo": 84.80162,
+      "cost": 84.8004,
+      "enhancement": -0.0014419556
+    },
+    {
+      "charCode": "KHR",
+      "costMonthAgo": 4095.0,
+      "cost": 4100.025,
+      "enhancement": 0.12271118
+    },
+    {
+      "charCode": "KMF",
+      "costMonthAgo": 424.65018,
+      "cost": 421.40033,
+      "enhancement": -0.76529694
+    },
+    {
+      "charCode": "KPW",
+      "costMonthAgo": 900.0,
+      "cost": 900.0,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "KRW",
+      "costMonthAgo": 1180.4991,
+      "cost": 1177.568,
+      "enhancement": -0.24829865
+    },
+    {
+      "charCode": "KWD",
+      "costMonthAgo": 0.30145,
+      "cost": 0.301807,
+      "enhancement": 0.11842346
+    },
+    {
+      "charCode": "KYD",
+      "costMonthAgo": 0.8332,
+      "cost": 0.840354,
+      "enhancement": 0.8586273
+    },
+    {
+      "charCode": "KZT",
+      "costMonthAgo": 426.61874,
+      "cost": 431.54767,
+      "enhancement": 1.1553421
+    },
+    {
+      "charCode": "LAK",
+      "costMonthAgo": 9927.415,
+      "cost": 10403.287,
+      "enhancement": 4.7935104
+    },
+    {
+      "charCode": "LBP",
+      "costMonthAgo": 1527.0,
+      "cost": 1524.9426,
+      "enhancement": -0.13472748
+    },
+    {
+      "charCode": "LKR",
+      "costMonthAgo": 199.70604,
+      "cost": 203.69989,
+      "enhancement": 1.9998703
+    },
+    {
+      "charCode": "LRD",
+      "costMonthAgo": 171.00005,
+      "cost": 151.5,
+      "enhancement": -11.403534
+    },
+    {
+      "charCode": "LSL",
+      "costMonthAgo": 15.13,
+      "cost": 15.375849,
+      "enhancement": 1.6249084
+    },
+    {
+      "charCode": "LYD",
+      "costMonthAgo": 4.547094,
+      "cost": 4.589191,
+      "enhancement": 0.92580414
+    },
+    {
+      "charCode": "MAD",
+      "costMonthAgo": 9.0655,
+      "cost": 9.115556,
+      "enhancement": 0.55215454
+    },
+    {
+      "charCode": "MDL",
+      "costMonthAgo": 17.516293,
+      "cost": 17.461239,
+      "enhancement": -0.31430054
+    },
+    {
+      "charCode": "MGA",
+      "costMonthAgo": 3950.0,
+      "cost": 4016.0317,
+      "enhancement": 1.6716843
+    },
+    {
+      "charCode": "MKD",
+      "costMonthAgo": 53.2293,
+      "cost": 53.33039,
+      "enhancement": 0.18991089
+    },
+    {
+      "charCode": "MMK",
+      "costMonthAgo": 1871.0864,
+      "cost": 1810.1068,
+      "enhancement": -3.2590485
+    },
+    {
+      "charCode": "MNT",
+      "costMonthAgo": 2847.064,
+      "cost": 2851.9922,
+      "enhancement": 0.17310333
+    },
+    {
+      "charCode": "MOP",
+      "costMonthAgo": 8.017384,
+      "cost": 8.07764,
+      "enhancement": 0.751564
+    },
+    {
+      "charCode": "MRO",
+      "costMonthAgo": 356.99982,
+      "cost": 356.99982,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "MRU",
+      "costMonthAgo": 36.2,
+      "cost": 36.279743,
+      "enhancement": 0.22028351
+    },
+    {
+      "charCode": "MUR",
+      "costMonthAgo": 42.696495,
+      "cost": 43.05,
+      "enhancement": 0.8279419
+    },
+    {
+      "charCode": "MVR",
+      "costMonthAgo": 15.45,
+      "cost": 15.45,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "MWK",
+      "costMonthAgo": 815.0,
+      "cost": 822.36273,
+      "enhancement": 0.90340424
+    },
+    {
+      "charCode": "MXN",
+      "costMonthAgo": 20.4509,
+      "cost": 20.671862,
+      "enhancement": 1.080452
+    },
+    {
+      "charCode": "MYR",
+      "costMonthAgo": 4.1865,
+      "cost": 4.1505,
+      "enhancement": -0.85990906
+    },
+    {
+      "charCode": "MZN",
+      "costMonthAgo": 63.774994,
+      "cost": 63.83,
+      "enhancement": 0.086250305
+    },
+    {
+      "charCode": "NAD",
+      "costMonthAgo": 15.13,
+      "cost": 15.12,
+      "enhancement": -0.066093445
+    },
+    {
+      "charCode": "NGN",
+      "costMonthAgo": 410.77,
+      "cost": 413.5,
+      "enhancement": 0.6646042
+    },
+    {
+      "charCode": "NIO",
+      "costMonthAgo": 35.25,
+      "cost": 35.526592,
+      "enhancement": 0.78466034
+    },
+    {
+      "charCode": "NOK",
+      "costMonthAgo": 8.632,
+      "cost": 8.419916,
+      "enhancement": -2.456955
+    },
+    {
+      "charCode": "NPR",
+      "costMonthAgo": 118.60393,
+      "cost": 120.83317,
+      "enhancement": 1.87957
+    },
+    {
+      "charCode": "NZD",
+      "costMonthAgo": 1.441234,
+      "cost": 1.392771,
+      "enhancement": -3.3626022
+    },
+    {
+      "charCode": "OMR",
+      "costMonthAgo": 0.385001,
+      "cost": 0.385016,
+      "enhancement": 0.0038986206
+    },
+    {
+      "charCode": "PAB",
+      "costMonthAgo": 1.0,
+      "cost": 1.0,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "PEN",
+      "costMonthAgo": 4.1385,
+      "cost": 4.02134,
+      "enhancement": -2.8309784
+    },
+    {
+      "charCode": "PGK",
+      "costMonthAgo": 3.535,
+      "cost": 3.540717,
+      "enhancement": 0.16172028
+    },
+    {
+      "charCode": "PHP",
+      "costMonthAgo": 50.860504,
+      "cost": 50.5075,
+      "enhancement": -0.6940689
+    },
+    {
+      "charCode": "PKR",
+      "costMonthAgo": 170.75,
+      "cost": 172.38875,
+      "enhancement": 0.95973206
+    },
+    {
+      "charCode": "PLN",
+      "costMonthAgo": 3.949706,
+      "cost": 3.995884,
+      "enhancement": 1.1691437
+    },
+    {
+      "charCode": "PYG",
+      "costMonthAgo": 6905.744,
+      "cost": 6971.186,
+      "enhancement": 0.94763947
+    },
+    {
+      "charCode": "QAR",
+      "costMonthAgo": 3.641,
+      "cost": 3.671758,
+      "enhancement": 0.8447647
+    },
+    {
+      "charCode": "RON",
+      "costMonthAgo": 4.2654,
+      "cost": 4.276725,
+      "enhancement": 0.26550293
+    },
+    {
+      "charCode": "RSD",
+      "costMonthAgo": 101.492874,
+      "cost": 101.74501,
+      "enhancement": 0.24842834
+    },
+    {
+      "charCode": "RUB",
+      "costMonthAgo": 72.6726,
+      "cost": 70.8332,
+      "enhancement": -2.5310822
+    },
+    {
+      "charCode": "RWF",
+      "costMonthAgo": 997.5,
+      "cost": 1027.3229,
+      "enhancement": 2.9897537
+    },
+    {
+      "charCode": "SAR",
+      "costMonthAgo": 3.750774,
+      "cost": 3.751097,
+      "enhancement": 0.008621216
+    },
+    {
+      "charCode": "SBD",
+      "costMonthAgo": 8.061298,
+      "cost": 8.032175,
+      "enhancement": -0.36127472
+    },
+    {
+      "charCode": "SCR",
+      "costMonthAgo": 13.494849,
+      "cost": 13.702053,
+      "enhancement": 1.5354309
+    },
+    {
+      "charCode": "SDG",
+      "costMonthAgo": 441.0,
+      "cost": 440.5,
+      "enhancement": -0.11338043
+    },
+    {
+      "charCode": "SEK",
+      "costMonthAgo": 8.7486,
+      "cost": 8.571348,
+      "enhancement": -2.0260544
+    },
+    {
+      "charCode": "SGD",
+      "costMonthAgo": 1.3569,
+      "cost": 1.349585,
+      "enhancement": -0.5390854
+    },
+    {
+      "charCode": "SHP",
+      "costMonthAgo": 0.738253,
+      "cost": 0.73237,
+      "enhancement": -0.796875
+    },
+    {
+      "charCode": "SLL",
+      "costMonthAgo": 10577.85,
+      "cost": 10790.85,
+      "enhancement": 2.013649
+    },
+    {
+      "charCode": "SOS",
+      "costMonthAgo": 585.0,
+      "cost": 583.34106,
+      "enhancement": -0.2835846
+    },
+    {
+      "charCode": "SRD",
+      "costMonthAgo": 21.3985,
+      "cost": 21.507,
+      "enhancement": 0.50704193
+    },
+    {
+      "charCode": "SSP",
+      "costMonthAgo": 130.26,
+      "cost": 130.26,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "STD",
+      "costMonthAgo": 21031.14,
+      "cost": 20956.441,
+      "enhancement": -0.35518646
+    },
+    {
+      "charCode": "STN",
+      "costMonthAgo": 21.5,
+      "cost": 21.35,
+      "enhancement": -0.69767
+    },
+    {
+      "charCode": "SVC",
+      "costMonthAgo": 8.748042,
+      "cost": 8.823237,
+      "enhancement": 0.85957336
+    },
+    {
+      "charCode": "SYP",
+      "costMonthAgo": 1257.4828,
+      "cost": 1257.204,
+      "enhancement": -0.02217102
+    },
+    {
+      "charCode": "SZL",
+      "costMonthAgo": 15.13,
+      "cost": 15.36633,
+      "enhancement": 1.5619965
+    },
+    {
+      "charCode": "THB",
+      "costMonthAgo": 33.587162,
+      "cost": 33.362,
+      "enhancement": -0.67038727
+    },
+    {
+      "charCode": "TJS",
+      "costMonthAgo": 11.327875,
+      "cost": 11.339968,
+      "enhancement": 0.10675049
+    },
+    {
+      "charCode": "TMT",
+      "costMonthAgo": 3.5,
+      "cost": 3.505,
+      "enhancement": 0.14286041
+    },
+    {
+      "charCode": "TND",
+      "costMonthAgo": 2.8325,
+      "cost": 2.8125,
+      "enhancement": -0.7060852
+    },
+    {
+      "charCode": "TOP",
+      "costMonthAgo": 2.2705,
+      "cost": 2.236969,
+      "enhancement": -1.4768066
+    },
+    {
+      "charCode": "TRY",
+      "costMonthAgo": 8.861,
+      "cost": 9.539795,
+      "enhancement": 7.660469
+    },
+    {
+      "charCode": "TTD",
+      "costMonthAgo": 6.791132,
+      "cost": 6.835585,
+      "enhancement": 0.65457916
+    },
+    {
+      "charCode": "TWD",
+      "costMonthAgo": 27.77,
+      "cost": 27.8432,
+      "enhancement": 0.26359558
+    },
+    {
+      "charCode": "TZS",
+      "costMonthAgo": 2305.0,
+      "cost": 2305.0,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "UAH",
+      "costMonthAgo": 26.626213,
+      "cost": 26.4762,
+      "enhancement": -0.56340027
+    },
+    {
+      "charCode": "UGX",
+      "costMonthAgo": 3539.1357,
+      "cost": 3583.8901,
+      "enhancement": 1.2645569
+    },
+    {
+      "charCode": "USD",
+      "costMonthAgo": 1.0,
+      "cost": 1.0,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "UYU",
+      "costMonthAgo": 42.961105,
+      "cost": 43.971233,
+      "enhancement": 2.3512573
+    },
+    {
+      "charCode": "UZS",
+      "costMonthAgo": 10700.0,
+      "cost": 10764.192,
+      "enhancement": 0.5999298
+    },
+    {
+      "charCode": "VES",
+      "costMonthAgo": 4171561.0,
+      "cost": 4.31895,
+      "enhancement": -99.99989
+    },
+    {
+      "charCode": "VND",
+      "costMonthAgo": 22732.543,
+      "cost": 22912.041,
+      "enhancement": 0.7896042
+    },
+    {
+      "charCode": "VUV",
+      "costMonthAgo": 112.44887,
+      "cost": 111.22422,
+      "enhancement": -1.0890732
+    },
+    {
+      "charCode": "WST",
+      "costMonthAgo": 2.574475,
+      "cost": 2.568092,
+      "enhancement": -0.24793243
+    },
+    {
+      "charCode": "XAF",
+      "costMonthAgo": 565.77527,
+      "cost": 566.8876,
+      "enhancement": 0.19660187
+    },
+    {
+      "charCode": "XAG",
+      "costMonthAgo": 0.04438037,
+      "cost": 0.04188482,
+      "enhancement": -5.6230927
+    },
+    {
+      "charCode": "XAU",
+      "costMonthAgo": 5.6785E-4,
+      "cost": 5.5988E-4,
+      "enhancement": -1.4035492
+    },
+    {
+      "charCode": "XCD",
+      "costMonthAgo": 2.70255,
+      "cost": 2.70255,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "XDR",
+      "costMonthAgo": 0.708075,
+      "cost": 0.709965,
+      "enhancement": 0.266922
+    },
+    {
+      "charCode": "XOF",
+      "costMonthAgo": 565.77527,
+      "cost": 566.8876,
+      "enhancement": 0.19660187
+    },
+    {
+      "charCode": "XPD",
+      "costMonthAgo": 5.2004E-4,
+      "cost": 5.0127E-4,
+      "enhancement": -3.6093369
+    },
+    {
+      "charCode": "XPF",
+      "costMonthAgo": 102.92588,
+      "cost": 103.12822,
+      "enhancement": 0.19658661
+    },
+    {
+      "charCode": "XPT",
+      "costMonthAgo": 0.00102513,
+      "cost": 9.6563E-4,
+      "enhancement": -5.804146
+    },
+    {
+      "charCode": "YER",
+      "costMonthAgo": 250.25,
+      "cost": 250.25,
+      "enhancement": 0.0
+    },
+    {
+      "charCode": "ZAR",
+      "costMonthAgo": 14.86313,
+      "cost": 15.327343,
+      "enhancement": 3.1232605
+    },
+    {
+      "charCode": "ZMW",
+      "costMonthAgo": 16.74635,
+      "cost": 17.410316,
+      "enhancement": 3.9648438
+    },
+    {
+      "charCode": "ZWL",
+      "costMonthAgo": 322.0,
+      "cost": 322.0,
+      "enhancement": 0.0
+    }
+  ]
+}
