@@ -1,3 +1,4 @@
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 
@@ -13,6 +14,7 @@ suspend fun main(): Unit = coroutineScope {
         println("max = ${analyzes.max}%")
         println("avg = ${analyzes.avg}%")
         analyzer.saveToFile("savedResults.json")
+
         val analyzesFromFile = readFromFileAnalyzes("savedResults.json")
         println(analyzes == analyzesFromFile)
     } catch (exception: Exception) {

@@ -106,14 +106,10 @@ class RateAnalyzer {
     fun getJson(): String {
         return jsonString
     }
-    suspend fun saveToFile(path: String) = coroutineScope {
-        launch(Dispatchers.IO) {
-            File(path).writeText(jsonString)
-        }
+    suspend fun saveToFile(path: String) = withContext(Dispatchers.IO){
+        File(path).writeText(jsonString)
     }
-    suspend fun print() = coroutineScope {
-        launch(Dispatchers.Main) {
-            println(jsonString)
-        }
+    suspend fun print() = withContext(Dispatchers.Main) {
+        println(jsonString)
     }
 }
